@@ -14,7 +14,7 @@ def leftClickButton(event):
     elif BMI < 23:
         labelBMI.configure(text="Normal")
     elif BMI < 25:
-        labelBMI.configure(text="High Weight")
+        labelBMI.configure(text="Lots of Weight")
     elif BMI < 30:
         labelBMI.configure(text="Fat Level 1")
     else:
